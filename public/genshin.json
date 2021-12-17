@@ -1,5 +1,174 @@
 [
   {
-    "name": ""
+    "name": "アルベド",
+    "file": "アルベド.png"
+  },
+  {
+    "name": "アンバー",
+    "file": "アンバー.png"
+  },
+  {
+    "name": "アーロイ",
+    "file": "アーロイ.png"
+  },
+  {
+    "name": "ウェンティ",
+    "file": "ウェンティ.png"
+  },
+  {
+    "name": "エウルア",
+    "file": "エウルア.png"
+  },
+  {
+    "name": "ガイア",
+    "file": "ガイア.png"
+  },
+  {
+    "name": "クレー",
+    "file": "クレー.png"
+  },
+  {
+    "name": "ジン",
+    "file": "ジン.png"
+  },
+  {
+    "name": "スクロース",
+    "file": "スクロース.png"
+  },
+  {
+    "name": "タルタリヤ",
+    "file": "タルタリヤ.png"
+  },
+  {
+    "name": "ディオナ",
+    "file": "ディオナ.png"
+  },
+  {
+    "name": "ディルック",
+    "file": "ディルック.png"
+  },
+  {
+    "name": "トーマ",
+    "file": "トーマ.png"
+  },
+  {
+    "name": "ノエル",
+    "file": "ノエル.png"
+  },
+  {
+    "name": "バーバラ",
+    "file": "バーバラ.png"
+  },
+  {
+    "name": "フィッシュル",
+    "file": "フィッシュル.png"
+  },
+  {
+    "name": "ベネット",
+    "file": "ベネット.png"
+  },
+  {
+    "name": "モナ",
+    "file": "モナ.png"
+  },
+  {
+    "name": "リサ",
+    "file": "リサ.png"
+  },
+  {
+    "name": "レザー",
+    "file": "レザー.png"
+  },
+  {
+    "name": "ロサリア",
+    "file": "ロサリア.png"
+  },
+  {
+    "name": "七七",
+    "file": "七七.png"
+  },
+  {
+    "name": "主人公",
+    "file": "主人公.png"
+  },
+  {
+    "name": "九条裟羅",
+    "file": "九条裟羅.png"
+  },
+  {
+    "name": "凝光",
+    "file": "凝光.png"
+  },
+  {
+    "name": "刻晴",
+    "file": "刻晴.png"
+  },
+  {
+    "name": "北斗",
+    "file": "北斗.png"
+  },
+  {
+    "name": "宵宮",
+    "file": "宵宮.png"
+  },
+  {
+    "name": "早柚",
+    "file": "早柚.png"
+  },
+  {
+    "name": "楓原万葉",
+    "file": "楓原万葉.png"
+  },
+  {
+    "name": "煙緋",
+    "file": "煙緋.png"
+  },
+  {
+    "name": "珊瑚宮心海",
+    "file": "珊瑚宮心海.png"
+  },
+  {
+    "name": "甘雨",
+    "file": "甘雨.png"
+  },
+  {
+    "name": "神里綾華",
+    "file": "神里綾華.png"
+  },
+  {
+    "name": "胡桃",
+    "file": "胡桃.png"
+  },
+  {
+    "name": "荒瀧一斗",
+    "file": "荒瀧一斗.png"
+  },
+  {
+    "name": "行秋",
+    "file": "行秋.png"
+  },
+  {
+    "name": "辛炎",
+    "file": "辛炎.png"
+  },
+  {
+    "name": "重雲",
+    "file": "重雲.png"
+  },
+  {
+    "name": "鍾離",
+    "file": "鍾離.png"
+  },
+  {
+    "name": "雷電将軍",
+    "file": "雷電将軍.png"
+  },
+  {
+    "name": "香菱",
+    "file": "香菱.png"
+  },
+  {
+    "name": "魈",
+    "file": "魈.png"
   }
 ]

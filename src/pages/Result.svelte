@@ -1,5 +1,21 @@
 <script lang="ts">
-  export let name: string;
+  import * as genshinData from "../../public/genshin.json"
+  import * as prosekaData from "../../public/proseka.json"
+  import * as weaponData from "../../public/weapon.json"
+  import * as youtubeData from "../../public/youtube.json"
+
+  import type {CharaContent, WeaponContent, ProsekaContent, YoutubeContent} from "../../lib/types/contentDataType"
+
+  const charactors: CharaContent[] = genshinData["default"];
+  const prosekas: ProsekaContent[] = prosekaData["default"];
+  const weapons: WeaponContent[] = weaponData["default"];
+  const youtubes: YoutubeContent[] = youtubeData["default"];
+
+  const showCharactor: CharaContent = charactors[Math.floor(Math.random() * charactors.length)]
+  const showProseka: ProsekaContent = prosekas[Math.floor(Math.random() * prosekas.length)]
+  const showWeapon: WeaponContent = weapons[Math.floor(Math.random() * weapons.length)]
+  const showYoutube: YoutubeContent = youtubes[Math.floor(Math.random() * youtubes.length)]
+
 </script>
 
 <main class="bg-fixed h-screen" style="background-image: url(resultBack.jpg)">
@@ -11,9 +27,9 @@
         <div class="text-center m-2 text-xl text-white font-semibold ">原神オススメ</div>
         <div class="rounded border bg-white">
           <div class="flex justify-center">
-            <img class="object-cover m-3 w-10/12 h-40" src="genshin/ジン.png" alt="ジン" />
+            <img class="object-cover m-3 w-10/12 h-40" src={"genshin/" + showCharactor.file} alt={showCharactor.name} />
           </div>
-          <div class="text-xl text-center font-semibold pb-1">ジン</div>
+          <div class="text-xl text-center font-semibold pb-1">{showCharactor.name}</div>
         </div>
       </div>
     
@@ -21,9 +37,9 @@
         <div class="text-center m-2 text-xl text-white font-semibold ">武器オススメ</div>
         <div class="rounded border bg-white">
           <div class="flex justify-center">
-            <img class="object-contain m-3 w-10/12 h-40" src="weapon/ランページ.png" alt="ランページ" />
+            <img class="object-contain m-3 w-10/12 h-40" src={"weapon/" + showWeapon.file} alt={showWeapon.name} />
           </div>
-          <div class="text-xl text-center font-semibold pb-1">ランページ</div>
+          <div class="text-xl text-center font-semibold pb-1">{showWeapon.name}</div>
         </div>
       </div>
   
@@ -31,7 +47,7 @@
         <div class="text-center m-2 text-xl text-white font-semibold ">プロセカオススメ</div>
         <div class="rounded border bg-white">
           <div class="flex justify-center">
-            <img class="object-contain m-3 w-10/12 h-48" src="proseka/宵崎奏.jpg" alt="宵崎奏.jpg" />
+            <img class="object-contain m-3 w-10/12 h-48" src={"proseka/" + showProseka.file} alt={showProseka.name} />
           </div>
         </div>
       </div>
@@ -43,7 +59,7 @@
             <iframe 
               width="400"
               height="200"
-              src="https://www.youtube.com/embed/y3YuIvHYBt8"
+              src={showYoutube.url}
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -51,7 +67,7 @@
             >
             </iframe>
           </div>
-          <div class="text-xl text-center font-semibold pb-1">偽物人間40号</div>
+          <div class="text-xl text-center font-semibold pb-1">{showYoutube.title}</div>
         </div>
       </div>
   
