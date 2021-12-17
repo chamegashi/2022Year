@@ -1,11 +1,10 @@
 <script lang="ts">
-  export let name: string;
   import { link } from 'svelte-spa-router'
 </script>
 
 <main class="h-screen relative">
 
-  <div class="h-screen absolute top-0">
+  <div class="h-screen absolute top-0 overflow-x-hidden">
     <div class="bg-blue-200 relative h-1/2">
       <img src="flower_ume.png" alt="ume." class="absolute h-1/2 bottom-0 left-0 animate-spin"/>
       <img src="flower_ume.png" alt="ume." class="absolute h-1/2 bottom-0 right-0 animate-spin"/>
