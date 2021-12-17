@@ -25,7 +25,7 @@
   
       <div class="mb-4 mx-2 w-5/12 h-60">
         <div class="text-center m-2 text-xl text-white font-semibold ">原神オススメ</div>
-        <div class="rounded border bg-white">
+        <div class="rounded border bg-white shadow-2xl">
           <div class="flex justify-center">
             <img class="object-cover m-3 w-10/12 h-40 rounded" src={"genshin/" + showCharactor.file} alt={showCharactor.name} />
           </div>
@@ -35,7 +35,7 @@
     
       <div class="mb-4 mx-2 w-5/12 h-60">
         <div class="text-center m-2 text-xl text-white font-semibold ">武器オススメ</div>
-        <div class="rounded border bg-white">
+        <div class="rounded border bg-white shadow-2xl">
           <div class="flex justify-center">
             <img class="object-contain m-3 w-10/12 h-40 rounded" src={"weapon/" + showWeapon.file} alt={showWeapon.name} />
           </div>
@@ -45,7 +45,7 @@
   
       <div class="my-2 mx-3 w-11/12">
         <div class="text-center m-2 text-xl text-white font-semibold ">プロセカオススメ</div>
-        <div class="rounded border bg-white">
+        <div class="rounded border bg-white shadow-2xl">
           <div class="flex justify-center">
             <img class="object-contain w-10/12 h-44 rounded" src={"proseka/" + showProseka.file} alt={showProseka.name} />
           </div>
@@ -54,7 +54,7 @@
   
       <div class="mx-3 w-11/12 h-60 mb-10">
         <div class="text-center m-2 text-xl text-white font-semibold ">ボカロオススメ</div>
-        <div class="rounded border bg-white">
+        <div class="rounded border bg-white shadow-2xl">
           <div class="flex justify-center m-2">
             <iframe 
               width="400"
