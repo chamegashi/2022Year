@@ -18,8 +18,8 @@
 
 </script>
 
-<main class="bg-fixed h-screen" style="background-image: url(resultBack.jpg)">
-  <div class="bg-fixed" style="background-image: url(fubuki.gif)">
+<main class="h-full bg-fixed" style="background-image: url(resultBack.jpg)">
+  <div class="bg-full" style="background-image: url(fubuki.gif)">
     <div class="text-center text-3xl p-3 text-white font-semibold">あなたの今年のおすすめ！</div>
     <div class="flex-wrap flex justify-center">
   
@@ -52,7 +52,7 @@
         </div>
       </div>
   
-      <div class="mx-3 w-10/12 h-60">
+      <div class="mx-3 w-11/12 h-60 mb-10">
         <div class="text-center m-2 text-xl text-white font-semibold ">ボカロオススメ</div>
         <div class="rounded border bg-white">
           <div class="flex justify-center m-2">
