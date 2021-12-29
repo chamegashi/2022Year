@@ -16,6 +16,8 @@
   const showWeapon: WeaponContent = weapons[Math.floor(Math.random() * weapons.length)]
   const showYoutube: YoutubeContent = youtubes[Math.floor(Math.random() * youtubes.length)]
 
+  // animate-pulse
+  
 </script>
 
 <main class="h-full bg-fixed" style="background-image: url(resultBack.jpg)">

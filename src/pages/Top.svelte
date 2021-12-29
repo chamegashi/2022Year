@@ -1,5 +1,12 @@
 <script lang="ts">
   import { link } from 'svelte-spa-router'
+  import { Howl, Howler } from 'howler';
+
+  const sound: Howl = new Howl({
+    src: ['kado.mp3'],
+  });
+
+  sound.play()
 </script>
 
 <main class="h-screen relative">
